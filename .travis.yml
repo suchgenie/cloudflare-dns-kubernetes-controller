@@ -4,4 +4,5 @@ go:
  - release
  - tip
 script:
+ - env | sort
  - go test -v ./...
